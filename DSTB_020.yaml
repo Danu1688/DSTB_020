@@ -3,7 +3,7 @@ proxies:
   type: trojan
   server: beacon.liveon.id
   port: 443
-  password: 2d7605fc-adb7-4fda-96c0-fefa6d2877dc
+  password: 46d3a184-06f4-44fd-beb0-f89066899b26
   udp: true
   sni: do.sshpremium.my.id
   skip-cert-verify: true

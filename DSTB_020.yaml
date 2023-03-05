@@ -1,0 +1,14 @@
+proxies:
+- name: danu19_LiveDo20
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 2d7605fc-adb7-4fda-96c0-fefa6d2877dc
+  udp: true
+  sni: do.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: do.sshpremium.my.id

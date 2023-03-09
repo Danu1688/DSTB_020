@@ -1,14 +1,14 @@
 proxies:
-- name: danu19_LiveDo20
+- name: danu19_VisionDo20
   type: trojan
-  server: beacon.liveon.id
+  server: do.sshpremium.my.id
   port: 443
   password: 46d3a184-06f4-44fd-beb0-f89066899b26
   udp: true
-  sni: do.sshpremium.my.id
+  sni: sb.scorecardresearch.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: do.sshpremium.my.id
+      Host: sb.scorecardresearch.com

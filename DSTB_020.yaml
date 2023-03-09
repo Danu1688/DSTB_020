@@ -1,5 +1,5 @@
 proxies:
-- name: danu19_VisionDo20
+- name: danu19-VisionDo20
   type: trojan
   server: do.sshpremium.my.id
   port: 443

@@ -1,4 +1,17 @@
 proxies:
+- name: SalsaNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 457f4fb1-95c3-41eb-ae75-eb75545abe03
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: SalsaLaviana_LiveDO_1
   type: trojan
   server: circles.asia
